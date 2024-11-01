@@ -1,4 +1,4 @@
-import 'package:fake_image/image_screen.dart';
+import 'package:fake_image/login.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -67,7 +67,7 @@ class MyApp extends StatelessWidget {
           primary: const Color(0xFFD0996F),
         ),
       ),
-      home: const HomePage(title: 'Fake Currency',),
+      home:LoginPage(),
     );
   }
 }

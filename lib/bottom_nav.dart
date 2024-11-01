@@ -1,4 +1,4 @@
-import 'package:fake_image/camera.dart';
+import 'package:fake_image/image_screen.dart';
 import 'package:fake_image/send_complaint.dart';
 import 'package:fake_image/send_feedback.dart';
 import 'package:flutter/material.dart';
@@ -19,7 +19,7 @@ class _MyWidgetState extends State<BottomNav> {
   @override
   void initState() {
     super.initState();
-    list1 = [const SendComplaint(), CameraScreen(),SendFeedback()];
+    list1 = [const SendComplaint(), HomePage(title: 'Fake Currency',),SendFeedback()];
   }
 
   @override
